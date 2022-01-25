@@ -1,0 +1,87 @@
+$colorWhite: #fff;
+$colorOrange: #f7b633;
+$colorBlue1: #070d59;
+$colorBlue2: #182871;
+
+$btnHeight: 40px;
+$btnRadius: 8px;
+
+.logo img {
+  width: 120px;
+  height: auto;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.p-file {
+  color: $colorWhite;
+  text-align: start;
+  padding-left: 20px;
+}
+
+.custom-btn {
+  background-color: $colorOrange;
+  border: none;
+  color: $colorWhite;
+  height: $btnHeight;
+  border-radius: $btnRadius;
+  min-width: 100px;
+}
+
+.btn-upload {
+  width: 140px;
+  position: absolute;
+  bottom: 55px;
+  display: fixed;
+  left: 30px;
+  font-weight: 600;
+}
+
+.div-pdf {
+  display: block;
+  padding-left: 50px;
+  padding-top: 10px;
+  margin: 20px auto;
+}
+.leftMenu {
+  background-color: $colorBlue1 !important;
+  .ant-menu {
+    padding: 0px 15px;
+    background-color: $colorBlue1;
+    .ant-menu-item {
+      border-radius: $btnRadius;
+      background-color: $colorBlue1;
+      padding: 26px 15px !important;
+      &.ant-menu-item-selected {
+        background-color: $colorBlue2;
+      }
+      .ant-menu-title-content {
+        strong {
+          display: block;
+          width: 100%;
+          line-height: 18px;
+        }
+        small {
+          display: block;
+          width: 100%;
+          line-height: 18px;
+          color: #7980c7;
+        }
+      }
+    }
+  }
+}
+
+.pdf-control {
+  margin-top: 10px;
+}
+
+.pdf-control label {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.btn-icon {
+  margin-right: 10px;
+  font-size: 18px;
+}
